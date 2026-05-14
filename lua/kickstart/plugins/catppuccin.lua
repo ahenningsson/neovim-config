@@ -18,10 +18,10 @@ return {
             custom_highlights = function(colors)
                 return {
                     -- Cleaner line numbers
-                    LineNr = { bg = colors.none },
+                    LineNr = { bg = "NONE" },
                     -- Transparent floats
-                    NormalFloat = { bg = colors.none },
-                    FloatBorder = { bg = colors.none, fg = colors.blue },
+                    NormalFloat = { bg = "NONE" },
+                    FloatBorder = { bg = "NONE", fg = colors.blue },
                 }
             end,
         },
